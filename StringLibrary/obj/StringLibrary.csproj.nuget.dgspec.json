@@ -26,7 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/mkondrag/301178524_lab4/_packaging/301178524-lab4/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/mkondrag/301178524_lab4/_packaging/lab4/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -43,6 +45,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
