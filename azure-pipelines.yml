@@ -24,5 +24,5 @@ steps:
     versionEnvVar: 'version'
     allowPackageConflicts: true
   env:
-    FeedConnection: '{Azure Artifacts Feed Connection String}'
+    FeedConnection: 'lab4'
 
