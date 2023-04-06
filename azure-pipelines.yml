@@ -12,7 +12,7 @@ steps:
     versioningScheme: 'byEnvVar'
     versionEnvVar: 'version'
     includeSymbols: true
-    includeSource: true
+   
 
 - task: NuGetCommand@2
   inputs:
@@ -23,6 +23,5 @@ steps:
     versioningScheme: 'byEnvVar'
     versionEnvVar: 'version'
     allowPackageConflicts: true
-  env:
-    FeedConnection: 'https://pkgs.dev.azure.com/mkondrag/301178524_lab4/_packaging/301178524-lab4/nuget/v3/index.json'
+ 
 
