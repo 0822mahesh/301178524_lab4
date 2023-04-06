@@ -28,7 +28,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://pkgs.dev.azure.com/mkondrag/301178524_lab4/_packaging/301178524-lab4/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/mkondrag/301178524_lab4/_packaging/lab4/nuget/v3/index.json": {}
+          "https://pkgs.dev.azure.com/mkondrag/Lab4-q1/_packaging/lab4-q1/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {

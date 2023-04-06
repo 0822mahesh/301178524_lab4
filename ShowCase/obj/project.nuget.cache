@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RQ0+sWcShIAoaxgHNqgU5sYzsrAqPPi+iq+eNh/YT9f2Afo9nRQ6JNT/PYwhwIrgw6wE1uJHEnAz4TbLzTH4kw==",
+  "dgSpecHash": "8rNRVp8e2bp3A6lo5AGMZemITl0Z/HI6adOI8x+uXgg+AQcjpZh+FVVURSIpJkhCnOVpfIHnx5Usz2R7oGme8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\14372\\Desktop\\final\\comp367Kondragunta-lab1\\301178524(Kondragunta)-lab4\\StringLibrary\\StringLibrary.csproj",
+  "projectFilePath": "C:\\Users\\14372\\Desktop\\final\\comp367Kondragunta-lab1\\301178524(Kondragunta)-lab4\\ShowCase\\ShowCase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\14372\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\14372\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",

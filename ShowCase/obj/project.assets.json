@@ -23,7 +23,7 @@
           "lib/netstandard1.0/_._": {}
         },
         "build": {
-          "build/netstandard2.0/NETStandard.Library.targets": {}
+          "build/netstandard2.0/_._": {}
         }
       },
       "NUnit/3.13.3": {
@@ -42,7 +42,20 @@
           }
         },
         "build": {
-          "build/NUnit.props": {}
+          "build/_._": {}
+        }
+      },
+      "StringLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NUnit": "3.13.3"
+        },
+        "compile": {
+          "bin/placeholder/StringLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StringLibrary.dll": {}
         }
       }
     }
@@ -216,11 +229,16 @@
         "nunit.3.13.3.nupkg.sha512",
         "nunit.nuspec"
       ]
+    },
+    "StringLibrary/1.0.0": {
+      "type": "project",
+      "path": "../StringLibrary/StringLibrary.csproj",
+      "msbuildProject": "../StringLibrary/StringLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "NUnit >= 3.13.3"
+      "StringLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -230,11 +248,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\14372\\Desktop\\final\\comp367Kondragunta-lab1\\301178524(Kondragunta)-lab4\\StringLibrary\\StringLibrary.csproj",
-      "projectName": "StringLibrary",
-      "projectPath": "C:\\Users\\14372\\Desktop\\final\\comp367Kondragunta-lab1\\301178524(Kondragunta)-lab4\\StringLibrary\\StringLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\14372\\Desktop\\final\\comp367Kondragunta-lab1\\301178524(Kondragunta)-lab4\\ShowCase\\ShowCase.csproj",
+      "projectName": "ShowCase",
+      "projectPath": "C:\\Users\\14372\\Desktop\\final\\comp367Kondragunta-lab1\\301178524(Kondragunta)-lab4\\ShowCase\\ShowCase.csproj",
       "packagesPath": "C:\\Users\\14372\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\14372\\Desktop\\final\\comp367Kondragunta-lab1\\301178524(Kondragunta)-lab4\\StringLibrary\\obj\\",
+      "outputPath": "C:\\Users\\14372\\Desktop\\final\\comp367Kondragunta-lab1\\301178524(Kondragunta)-lab4\\ShowCase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -256,7 +274,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\14372\\Desktop\\final\\comp367Kondragunta-lab1\\301178524(Kondragunta)-lab4\\StringLibrary\\StringLibrary.csproj": {
+              "projectPath": "C:\\Users\\14372\\Desktop\\final\\comp367Kondragunta-lab1\\301178524(Kondragunta)-lab4\\StringLibrary\\StringLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -268,12 +290,6 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
-        "dependencies": {
-          "NUnit": {
-            "target": "Package",
-            "version": "[3.13.3, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
